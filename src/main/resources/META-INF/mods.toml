@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="hexcanvas"
+version="${version}"
+displayName="Hex Canvas"
+description='''
+Client-only infinite canvas panning for Hex Casting's spell grid.
+Hold the right mouse button and drag to move around the grid.
+'''
+displayTest="IGNORE_SERVER_VERSION"
+
+[[dependencies.hexcanvas]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,48)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.hexcanvas]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.hexcanvas]]
+modId="hexcasting"
+mandatory=true
+versionRange="[0.11.3,0.12)"
+ordering="AFTER"
+side="CLIENT"

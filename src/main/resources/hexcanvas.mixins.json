@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "local.hexcanvas.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "hexcanvas.refmap.json",
+  "client": [
+    "GuiSpellcastingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
